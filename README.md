@@ -18,20 +18,6 @@
 * Shadowsocks不能替代[TLS](https://zh.wikipedia.org/wiki/TLS)或者[VPN](https://zh.wikipedia.org/wiki/VPN)，本质上只是设置了密码的[网络代理](https://zh.wikipedia.org/wiki/代理服务器)协议，不能用作[匿名](https://zh.wikipedia.org/wiki/匿名)通信方案，该协议的目标不在于提供完整的通信安全机制，主要是为了协助上网用户在[严苛的网络环境中](https://zh.wikipedia.org/wiki/互联网审查)突破封锁。专案贡献者中不少建议有企业及用途需求的使用者使用VPN
 * 在某些[极端的环境下](https://zh.wikipedia.org/wiki/防火长城)，通过[深度包检测](https://zh.wikipedia.org/wiki/深度包检测)（DPI）也有可能识别出协议特征。为了确保安全，用户应做好额外的加密和验证措施，以免泄露信息，无论使用的服务器来源是否可靠
 
-### ShadowsocksR主要特点
-
-* ShadowsocksR是breakwa11發起的Shadowsocks分支，在Shadowsocks的基础上增加了一些流量混淆方式，修复了部分安全问题并可以提高[QoS](https://zh.wikipedia.org/wiki/QoS)优先级。后来贡献者ibrehat也为Shadowsocks补上了一些此类特性，甚至增加了类似[Tor](https://zh.wikipedia.org/wiki/Tor)的可插拔传输层功能。
-
-
-
-
-
-
-
-
-
-
-
 > 以上链接来自Wikipedia
 
 
