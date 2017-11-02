@@ -6,7 +6,7 @@
 
 ### Shadowsocks与ShadowsocksR
 
-* Shadowsocks和ShadowsocksR之间有很好的兼容性，ShadowsocksR是Shadowsocks的优化分支，加入了流量混淆
+* Shadowsocks和ShadowsocksR之间有很好的兼容性，ShadowsocksR是Shadowsocks的优化分支，加入了流量混淆，更不易被GFW流量特征检测
 
 
 
