@@ -6,7 +6,7 @@
 * Android客户端
 * iOS客户端
 
-> 下载链接
+> 下载链接：
 
 ### ShadowsocksR 客户端
 
