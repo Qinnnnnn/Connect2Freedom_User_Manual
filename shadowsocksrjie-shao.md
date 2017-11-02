@@ -1,4 +1,4 @@
-# ShadowsocksR简介
+# ShadowsocksR 简介
 
 > Shadowsocks和ShadowsocksR在后文简称SS和SSR
 
