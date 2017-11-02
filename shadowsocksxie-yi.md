@@ -10,7 +10,7 @@
 > +-------+----------+
 > ```
 >
-> Once this packet is received, payload is decrypted using the specified cipher with the IV in the packet and the pre-shared key. For the server-side, the data is then forwarded to the destination. For client-side, the data is forwarded to the application. And this shadowsocks TCP relay goes into_stream_stage, in which the data is being encrypted with the same IV and transmitted directly without IV prepended.
+> Once this packet is received, payload is decrypted using the specified cipher with the IV in the packet and the pre-shared key. For the server-side, the data is then forwarded to the destination. For client-side, the data is forwarded to the application. And this shadowsocks TCP relay goes into\_stream\_stage, in which the data is being encrypted with the same IV and transmitted directly without IV prepended.
 >
 > ```
 > +----------+
@@ -33,7 +33,11 @@ Client和Server第一次建立连接后发送的第一条数据前面带上了IV
 > When the client-side receives a UDP request from other applications, RSV and FRAG are dropped and a shadowsocks UDP request is made out from it. A random IV is always generated and used for the encryption of shadowsocks UDP request and response. Therefore, all UDP requests and responses have the same structure, no matter whether it’s the first packet or not.
 >
 > ```
->
+> +-------+----------+
+> |  IV   | Payload  |
+> +-------+----------+
+> | Fixed | Variable |
+> +-------+----------+
 > ```
 
 UDP和TCP区别在于，每次都要带上IV信息。
