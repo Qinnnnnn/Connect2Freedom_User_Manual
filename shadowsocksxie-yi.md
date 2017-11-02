@@ -1,3 +1,25 @@
+# 协议
+
+### Protocol
+
+> The shadowsocks protocol is very similar to [SOCKS5](https://www.ietf.org/rfc/rfc1928.txt) but encrypted and simpler.
+>
+> Below is the structure of a shadowsocks request \(sent from client-side\), which is identical for both TCP and UDP connections before encrypted \(or after decrypted\).
+>
+> ```
+> +--------------+---------------------+------------------+----------+
+> | Address Type | Destination Address | Destination Port |   Data   |
+> +--------------+---------------------+------------------+----------+
+> |      1       |       Variable      |         2        | Variable |
+> +--------------+---------------------+------------------+----------+
+> ```
+>
+> Possible values of address type are 1 \(IPv4\), 4 \(IPv6\), 3 \(hostname\). For IPv4 address, it’s packed as a[32-bit \(4-byte\)](https://tools.ietf.org/html/rfc791#section-2.3)big-endian integer. For IPv6 address,[a compact representation](https://tools.ietf.org/html/rfc1924)\(16-byte array\) is used. For hostname, the first byte of destination address indicates the length, which limits the length of hostname to 255. The destination port is also a big-endian integer.
+>
+> The request is encrypted using the specified cipher with a random IV and the pre-shared key, it then becomes so-called_payload_.
+
+Shadowsocks基于Socks5，支持TCP和UDP，而且支持远端DNS解析，所以对于Client来说，不需要设置DNS，这样使用Shadowsocks也能避免DNS污染和劫持。 发送的TCP或UDP数据的格式如上，指定了要访问的地址、端口和数据。整个结构非常简单。
+
 ### TCP
 
 > The first packet of a shadowsocks TCP connection sent either from server-side or client-side must contains the randomly generated IV that used for the encryption.
