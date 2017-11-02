@@ -4,7 +4,7 @@
   * [Shadowsocks 原理](shadowsocksyuan-li.md)
   * [Shadowsocks 协议](shadowsocksxie-yi.md)
   * [ShadowsocksR 简介](shadowsocksrjie-shao.md)
-* [用户手册](yong-hu-shou-ce.md)
+* [小白入门](yong-hu-shou-ce.md)
   * [Shadowsocks 使用方法](yong-hu-shou-ce/shadowsocksshi-yong-fang-fa.md)
     * Shadowsocks 自动化配置
     * Shadowsocks 手动配置
