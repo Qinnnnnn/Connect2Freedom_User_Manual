@@ -1,4 +1,4 @@
-# Shadowsocks工作原理
+# Shadowsocks 工作原理
 
 目前来说虽然Shadowsocks有被检测到的可能性，但是目前来说还算是比较有效的上网方式。所以介绍一下Shadowsocks工作原理，在工作原理上有什么理解有误的地方请多多包涵。
 
