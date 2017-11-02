@@ -1,6 +1,6 @@
 # 用户手册
 
-本手册分为Shadowsocks使用方法和ShadowsocksR使用方法，每个使用方法均有自动化配置教程和手动配置教程
+本手册分为Shadowsocks使用方法和ShadowsocksR使用方法，每种使用方法均有自动化配置教程和手动配置教程
 
 ### 注意事项
 
