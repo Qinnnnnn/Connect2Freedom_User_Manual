@@ -6,11 +6,15 @@
   * [ShadowsocksR 简介](shadowsocksrjie-shao.md)
 * [小白入门](yong-hu-shou-ce.md)
   * [Shadowsocks 配置方法](yong-hu-shou-ce/shadowsocksshi-yong-fang-fa.md)
-    * [Shadowsocks 自动化配置](yong-hu-shou-ce/shadowsocksshi-yong-fang-fa/shadowsocks-zi-dong-hua-pei-zhi.md)
-    * [Shadowsocks 手动配置](yong-hu-shou-ce/shadowsocksshi-yong-fang-fa/shadowsocks-shou-dong-pei-zhi.md)
+    * * [Shadowsocks 自动化配置](yong-hu-shou-ce/shadowsocksshi-yong-fang-fa/shadowsocks-zi-dong-hua-pei-zhi.md)
+      * [Shadowsocks 手动配置](yong-hu-shou-ce/shadowsocksshi-yong-fang-fa/shadowsocks-shou-dong-pei-zhi.md)
   * [ShadowsocksR 配置方法](yong-hu-shou-ce/shadowsocksr-shi-yong-fang-fa.md)
-    * [ShadowsocksR 自动化配置](yong-hu-shou-ce/shadowsocksr-shi-yong-fang-fa/shadowsocksr-zi-dong-hua-pei-zhi.md)
-    * [ShadowsocksR 手动配置](yong-hu-shou-ce/shadowsocksr-shi-yong-fang-fa/shadowsocksr-shou-dong-pei-zhi.md)
+    * * [ShadowsocksR 自动化配置](yong-hu-shou-ce/shadowsocksr-shi-yong-fang-fa/shadowsocksr-zi-dong-hua-pei-zhi.md)
+      * [ShadowsocksR 手动配置](yong-hu-shou-ce/shadowsocksr-shi-yong-fang-fa/shadowsocksr-shou-dong-pei-zhi.md)
+
+* 客户端
 * [高级配置](gao-ji-pei-zhi.md)
   * [UDP流量转发](gao-ji-pei-zhi/udpliu-liang-zhuan-fa.md)
+
+
 
