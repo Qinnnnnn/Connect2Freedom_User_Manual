@@ -1,4 +1,4 @@
 # Summary
 
-* [欢迎使用SS/SSR](README.md)
+* [欢迎使用Shadowsocks/ShadowsocksR](README.md)
 
