@@ -1,4 +1,4 @@
-# Shadowsocks/ShadowsocksR 客户端
+# Shadowsocks/ShadowsocksR 客户端获取
 
 ### Shadowsocks 客户端
 
