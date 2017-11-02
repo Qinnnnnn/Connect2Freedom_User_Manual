@@ -14,9 +14,9 @@
 
 ### Shadowsocks安全性
 
-* 然而Shadowsocks自行设计的加密协议对双方的身份验证仅限于[预共享密钥](https://zh.wikipedia.org/w/index.php?title=%E9%A2%84%E5%85%B1%E4%BA%AB%E5%AF%86%E9%92%A5&action=edit&redlink=1)，亦无[完全前向保密](https://zh.wikipedia.org/wiki/%E5%AE%8C%E5%85%A8%E5%89%8D%E5%90%91%E4%BF%9D%E5%AF%86)，也未曾有安全专家公开分析或评估协议及其实现
-* Shadowsocks不能替代[TLS](https://zh.wikipedia.org/wiki/TLS)或者[VPN](https://zh.wikipedia.org/wiki/VPN)，本质上只是设置了密码的[网络代理](https://zh.wikipedia.org/wiki/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8)协议，不能用作[匿名](https://zh.wikipedia.org/wiki/%E5%8C%BF%E5%90%8D)通信方案，该协议的目标不在于提供完整的通信安全机制，主要是为了协助上网用户在[严苛的网络环境中](https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E5%AE%A1%E6%9F%A5)突破封锁。專案貢獻者中不少建議有企業級用途需求的使用者使用VPN
-* 在某些[极端的环境下](https://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E)，通过[深度包检测](https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E5%8C%85%E6%A3%80%E6%B5%8B)（DPI）也有可能识别出协议特征。为了确保安全，用户应做好额外的加密和验证措施，以免泄露信息，无论使用的服务器来源是否可靠
+* 然而Shadowsocks自行设计的加密协议对双方的身份验证仅限于[预共享密钥](https://zh.wikipedia.org/w/index.php?title=预共享密钥&action=edit&redlink=1)，亦无[完全前向保密](https://zh.wikipedia.org/wiki/完全前向保密)，也未曾有安全专家公开分析或评估协议及其实现
+* Shadowsocks不能替代[TLS](https://zh.wikipedia.org/wiki/TLS)或者[VPN](https://zh.wikipedia.org/wiki/VPN)，本质上只是设置了密码的[网络代理](https://zh.wikipedia.org/wiki/代理服务器)协议，不能用作[匿名](https://zh.wikipedia.org/wiki/匿名)通信方案，该协议的目标不在于提供完整的通信安全机制，主要是为了协助上网用户在[严苛的网络环境中](https://zh.wikipedia.org/wiki/互联网审查)突破封锁。专案贡献者中不少建议有企业及用途需求的使用者使用VPN
+* 在某些[极端的环境下](https://zh.wikipedia.org/wiki/防火长城)，通过[深度包检测](https://zh.wikipedia.org/wiki/深度包检测)（DPI）也有可能识别出协议特征。为了确保安全，用户应做好额外的加密和验证措施，以免泄露信息，无论使用的服务器来源是否可靠
 
 
 
