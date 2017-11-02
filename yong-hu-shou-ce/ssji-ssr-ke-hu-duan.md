@@ -1,5 +1,7 @@
 # Shadowsocks/ShadowsocksR 客户端获取
 
+请于以下列表获取您需要平台的客户端
+
 ### Shadowsocks 客户端
 
 * Windows客户端（下载链接如下）
