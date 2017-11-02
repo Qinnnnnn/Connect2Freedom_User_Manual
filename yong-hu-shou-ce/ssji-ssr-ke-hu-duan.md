@@ -2,8 +2,8 @@
 
 ### Shadowsocks 客户端
 
-* Windows客户端
-* Android客户端
+* Windows客户端（下载链接如下）
+* Android客户端（下载链接如下）
 * iOS客户端（APP Store搜索SkipWorld）
 
 > 下载链接：
