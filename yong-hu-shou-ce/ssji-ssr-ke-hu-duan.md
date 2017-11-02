@@ -4,7 +4,7 @@
 
 * Windows客户端
 * Android客户端
-* iOS客户端
+* iOS客户端（APP Store搜索SkipWorld）
 
 > 下载链接：
 
