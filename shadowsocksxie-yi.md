@@ -1,4 +1,4 @@
-# 协议
+# Shadowsocks协议
 
 ### Protocol
 
