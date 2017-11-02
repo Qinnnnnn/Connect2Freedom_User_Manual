@@ -6,7 +6,8 @@
 
 ### Shadowsocks与ShadowsocksR比较
 
-* Shadowsocks和ShadowsocksR之间有很好的兼容性，ShadowsocksR是Shadowsocks的优化分支，加入了流量混淆，更不易被GFW流量特征检测，所以在更为严酷的流量压制和网络审查中更建议使用ShadowsocksR。
+* Shadowsocks和ShadowsocksR之间有很好的兼容性，ShadowsocksR是Shadowsocks的优化分支。
+* 加入了流量混淆和协议插件，更不易被GFW流量特征检测，所以在更为严酷的流量压制和网络审查中更建议使用ShadowsocksR。
 * 对用户而言Shadowsocks和ShadowsocksR的客户端不同，总体来说配置大同小异
 
 
