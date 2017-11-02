@@ -12,5 +12,5 @@
     * [ShadowsocksR 自动化配置](yong-hu-shou-ce/shadowsocksr-shi-yong-fang-fa/shadowsocksr-zi-dong-hua-pei-zhi.md)
     * [ShadowsocksR 手动配置](yong-hu-shou-ce/shadowsocksr-shi-yong-fang-fa/shadowsocksr-shou-dong-pei-zhi.md)
 * [高级配置](gao-ji-pei-zhi.md)
-  * UDP流量转发
+  * [UDP流量转发](gao-ji-pei-zhi/udpliu-liang-zhuan-fa.md)
 
