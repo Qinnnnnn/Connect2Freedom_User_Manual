@@ -1,7 +1,5 @@
 # ShadowsocksR 简介
 
-> Shadowsocks和ShadowsocksR在后文简称SS和SSR
-
 ### ShadowsocksR来历
 
 * ShadowsocksR是由breakwa11发起的Shadowsocks分支，在Shadowsocks的基础上增加了一些流量混淆方式，修复了部分安全问题并可以提高[QoS](https://zh.wikipedia.org/wiki/QoS)优先级。后来贡献者ibrehat也为Shadowsocks补上了一些此类特性，甚至增加了类似[Tor](https://zh.wikipedia.org/wiki/Tor)的可插拔传输层功能。
