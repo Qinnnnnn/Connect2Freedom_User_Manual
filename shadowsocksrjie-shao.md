@@ -1,4 +1,4 @@
-# ShadowsocksR介绍
+# ShadowsocksR简介
 
 ### ShadowsocksR来历
 
@@ -6,7 +6,7 @@
 
 ### Shadowsocks与ShadowsocksR
 
-* Shadowsocks和ShadowsocksR之间有很好的兼容性，ShadowsocksR是Shadowsocks的优化分支
+* Shadowsocks和ShadowsocksR之间有很好的兼容性，ShadowsocksR是Shadowsocks的优化分支，加入了流量混淆
 
 
 
