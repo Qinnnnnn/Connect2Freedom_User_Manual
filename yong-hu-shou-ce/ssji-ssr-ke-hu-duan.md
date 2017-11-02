@@ -1,4 +1,4 @@
-# SS及SSR客户端
+# Shadowsocks及ShadowsocksR 客户端
 
 ### Shadowsocks 客户端
 
