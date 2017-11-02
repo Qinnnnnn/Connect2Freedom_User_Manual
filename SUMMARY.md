@@ -5,7 +5,7 @@
   * [Shadowsocks 协议](shadowsocksxie-yi.md)
   * [ShadowsocksR 简介](shadowsocksrjie-shao.md)
 * [小白入门](yong-hu-shou-ce.md)
-  * [SS及SSR客户端](yong-hu-shou-ce/ssji-ssr-ke-hu-duan.md)
+  * [SS/SSR 客户端获取](yong-hu-shou-ce/ssji-ssr-ke-hu-duan.md)
   * [Shadowsocks 客户端配置](yong-hu-shou-ce/shadowsocksshi-yong-fang-fa.md)
     * [Shadowsocks 自动化配置](yong-hu-shou-ce/shadowsocksshi-yong-fang-fa/shadowsocks-zi-dong-hua-pei-zhi.md)
     * [Shadowsocks 手动配置](yong-hu-shou-ce/shadowsocksshi-yong-fang-fa/shadowsocks-shou-dong-pei-zhi.md)
