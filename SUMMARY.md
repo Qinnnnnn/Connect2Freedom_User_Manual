@@ -3,6 +3,7 @@
 * [欢迎连接世界的另一端](README.md)
   * [Shadowsocks 简介](shadowsocks-jian-jie.md)
   * [ShadowsocksR 简介](shadowsocksrjian-jie.md)
+  * [SoftEther VPN 简介](softether-vpn-jian-jie.md)
 * [小白入门](yong-hu-shou-ce.md)
   * [SS/SSR 客户端获取](yong-hu-shou-ce/ssji-ssr-ke-hu-duan.md)
   * [Shadowsocks 客户端配置](yong-hu-shou-ce/shadowsocksshi-yong-fang-fa.md)
