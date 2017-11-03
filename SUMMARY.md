@@ -2,7 +2,6 @@
 
 * [欢迎连接世界的另一端](README.md)
   * [Shadowsocks 简介](shadowsocks-jian-jie.md)
-  * [Shadowsocks 协议](shadowsocksxie-yi.md)
   * [ShadowsocksR 简介](shadowsocksrjie-shao.md)
 * [小白入门](yong-hu-shou-ce.md)
   * [SS/SSR 客户端获取](yong-hu-shou-ce/ssji-ssr-ke-hu-duan.md)
