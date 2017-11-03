@@ -18,7 +18,7 @@
 
 目前来说虽然Shadowsocks有被检测到的可能性，但是目前来说还算是比较有效的上网方式。所以介绍一下Shadowsocks工作原理，在工作原理上有什么理解有误的地方请多多包涵。
 
-### ![](/assets/import.png)在我们和目标地址之间有一个代理服务器
+![](/assets/import.png)在我们和目标地址之间有一个代理服务器搭建Shadowsocks协议作为SS Server
 
 1. 我们首先通过Socks5协议在SS Local和SS Server之间进行通信。
 2. 建立通信后SS Local连接到SS Server，并对Socks5中传输的数据进行对称加密传输，传输的数据格式是Shadowsocks的协议。
