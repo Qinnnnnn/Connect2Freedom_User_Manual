@@ -4,8 +4,6 @@ SoftEther VPN是世界上功能最强大，最简单的VPN软件之一。它是�
 
 ### 特征
 
-## 特征
-
 * 免费和[开源](http://www.softether.org/5-download/src)软件
 * 轻松建立[远程访问](http://www.softether.org/4-docs/1-manual/A._Examples_of_Building_VPN_Networks/10.4_Build_a_PC-to-LAN_Remote_Access_VPN)和[站点到站点](http://www.softether.org/4-docs/1-manual/A._Examples_of_Building_VPN_Networks/10.5_Build_a_LAN-to-LAN_VPN_%28Using_L2_Bridge%29)VPN
 * SSL-VPN通过HTTPS隧道[通过NAT和防火墙](http://www.softether.org/1-features/1._Ultimate_Powerful_VPN_Connectivity)
