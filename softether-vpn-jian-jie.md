@@ -43,5 +43,29 @@ SoftEther VPN是世界上功能最强大，最简单的VPN软件之一。它是�
 * syslog传递函数
 * [详细规格](http://www.softether.org/3-spec)
 
+### SoftEther VPN架构
+
+![](/assets/import2.png)
+
+以太网设备的虚拟化是SoftEther VPN架构的关键。SoftEther VPN虚拟化以太网设备，以实现[远程访问VPN](http://www.softether.org/4-docs/2-howto/1.VPN_for_On-premise/2.Remote_Access_VPN_to_LAN) 和 [站点到站点VPN](http://www.softether.org/4-docs/2-howto/1.VPN_for_On-premise/3.LAN_to_LAN_Bridge_VPN)的灵活的虚拟专用网络 。SoftEther VPN实现虚拟网络适配器程序作为软件仿真的传统以太网网络适配器。SoftEther VPN将虚拟以太网交换机（Virtual Ethernet Switch， [虚拟中枢](http://www.softether.org/4-docs/1-manual/3._SoftEther_VPN_Server_Manual/3.4_Virtual_Hub_Functions)）作为软件仿真的传统以太网交换机实现。SoftEther VPN通过网络适配器和交换机之间的软件仿真以太网电缆实现VPN会话。
+
+您可以 在服务器计算机上使用SoftEther VPN创建一个或多个 [虚拟集线器](http://www.softether.org/4-docs/1-manual/3._SoftEther_VPN_Server_Manual/3.4_Virtual_Hub_Functions)。该服务器计算机将成为 [VPN服务器](http://www.softether.org/4-docs/1-manual/3._SoftEther_VPN_Server_Manual)，它接受来自[VPN客户端](http://www.softether.org/4-docs/1-manual/4._SoftEther_VPN_Client_Manual) 计算机的VPN连接请求 。
+
+您可以 在客户端计算机上使用SoftEther VPN创建一个或多个 [虚拟网络适配器](http://www.softether.org/4-docs/1-manual/4._SoftEther_VPN_Client_Manual/4.3_Virtual_Network_Adapter)。该客户端计算机将成为一个VPN客户端，它与VPN服务器上的Virtual Hub建立VPN连接。
+
+您可以在VPN客户端和VPN服务器之间建立VPN会话，称为“VPN隧道”。VPN会话是虚拟化网络电缆。通过TCP / IP连接实现VPN会话。通过VPN会话的信号由SSL加密。因此，您可以安全地建立超出Internet的VPN会话。VPN会话由SoftEther VPN的 [“VPN over HTTPS”技术建立](http://www.softether.org/1-features/1._Ultimate_Powerful_VPN_Connectivity)。这意味着SoftEther VPN可以创建超过[任何类型的防火墙和NAT](http://www.softether.org/4-docs/2-howto/7.Replacements_of_Legacy_VPNs/1.Penetrates_Firewall_by_SSL-VPN)的VPN连接 。
+
+![](/assets/import3.png)
+
+虚拟Hub将所有连接的VPN会话的所有以太网数据包交换到其他连接的会话。这种行为与传统的以太网交换机相同。虚拟集线器具有FDB（转发数据库），以优化以太网帧的传输。
+
+您可以定义 [本地网桥](http://www.softether.org/4-docs/1-manual/3._SoftEther_VPN_Server_Manual/3.6_Local_Bridges) 使用本地网桥功能的虚拟集线器与现有的物理以太网段之间。本地桥接器在物理以太网适配器和虚拟集线器之间交换数据包。您可以 通过使用本地桥接功能实现从家庭或移动到公司网络的 [远程访问VPN](http://www.softether.org/4-docs/2-howto/1.VPN_for_On-premise/2.Remote_Access_VPN_to_LAN)。
+
+您可以 在两个或多个远程Virtual Hub之间定义 [级联连接](http://www.softether.org/4-docs/1-manual/A._Examples_of_Building_VPN_Networks/10.5_Build_a_LAN-to-LAN_VPN_%28Using_L2_Bridge%29)。通过级联，您可以将两个或多个远程以太网段集成到单个以太网段。例如，在站点A，B和C之间建立级联连接后，站点A中的任何计算机将能够与站点B和站点C中的计算机进行通信。这是 [站点到站点VPN](http://www.softether.org/4-docs/2-howto/1.VPN_for_On-premise/3.LAN_to_LAN_Bridge_VPN)。
+
+SoftEther VPN还可以通过UDP建立VPN会话。SoftEther VPN的UDP模式支持 [NAT穿越](http://www.softether.org/4-docs/2-howto/6.VPN_Server_Behind_NAT_or_Firewall/1.Dynamic_DNS_and_NAT_Traversal)。NAT穿越功能允许现有NAT或防火墙后面的VPN服务器接受传入的VPN会话。在防火墙或NAT之后的公司网络上设置VPN服务器之前，您不需要网络管理员的特殊许可。此外，SoftEther VPN Server可以放置在动态IP地址环境中，因为SoftEther VPN具有内置的 [动态DNS（DDNS）](http://www.softether.org/4-docs/2-howto/6.VPN_Server_Behind_NAT_or_Firewall/1.Dynamic_DNS_and_NAT_Traversal) 功能。
+
+SoftEther VPN Server支持额外的VPN协议，包括 [L2TP / IPsec](http://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server)， [OpenVPN](http://www.softether.org/4-docs/2-howto/7.Replacements_of_Legacy_VPNs/2.Replacements_of_OpenVPN)， [Microsoft SSTP](http://www.softether.org/1-features/1._Ultimate_Powerful_VPN_Connectivity)， [L2TPv3](http://www.softether.org/1-features/1._Ultimate_Powerful_VPN_Connectivity) 和 [EtherIP](http://www.softether.org/1-features/1._Ultimate_Powerful_VPN_Connectivity)。这些实现了与[iPhone，iPad，Android，Windows和Mac OS X](http://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server)以及 [Cisco VPN路由器](http://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server/6.Cisco_IOS_L2TPv3%2F%2F%2F%2FIPsec_Edge-VPN_Router_Setup) 和其他厂商VPN产品的[内置L2TP / IPsec VPN客户端](http://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server)的互操作性 。
+
 
 
