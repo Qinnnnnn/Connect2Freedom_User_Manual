@@ -2,7 +2,7 @@
 
 SoftEther VPN是世界上功能最强大，最简单的VPN软件之一。它是开源软件并托管于GitHub，作为[日本筑波大学](http://www.tsukuba.ac.jp/english/)的学术研究项目开发。
 
-### 演练
+### 指导
 
 ![](http://www.softether.org/@api/deki/files/5/=selogo.jpg "selogo.jpg")
 
