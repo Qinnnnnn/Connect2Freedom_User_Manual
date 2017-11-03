@@ -1,4 +1,4 @@
-# Shadowsocks/ShadowsocksR 客户端获取
+# Shadowsocks/ShadowsocksR 客户端
 
 请于以下列表获取您需要平台的客户端
 
