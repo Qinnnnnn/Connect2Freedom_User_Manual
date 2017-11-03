@@ -1,4 +1,4 @@
-# Shadowsocks 使用方法
+# Shadowsocks 客户端配置
 
 下载对应平台客户端之后请配置服务器信息
 
