@@ -67,7 +67,7 @@ SoftEther VPN还可以通过UDP建立VPN会话。SoftEther VPN的UDP模式支持
 
 SoftEther VPN Server支持额外的VPN协议，包括 [L2TP / IPsec](http://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server)， [OpenVPN](http://www.softether.org/4-docs/2-howto/7.Replacements_of_Legacy_VPNs/2.Replacements_of_OpenVPN)， [Microsoft SSTP](http://www.softether.org/1-features/1._Ultimate_Powerful_VPN_Connectivity)， [L2TPv3](http://www.softether.org/1-features/1._Ultimate_Powerful_VPN_Connectivity) 和 [EtherIP](http://www.softether.org/1-features/1._Ultimate_Powerful_VPN_Connectivity)。这些实现了与[iPhone，iPad，Android，Windows和Mac OS X](http://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server)以及 [Cisco VPN路由器](http://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server/6.Cisco_IOS_L2TPv3%2F%2F%2F%2FIPsec_Edge-VPN_Router_Setup) 和其他厂商VPN产品的[内置L2TP / IPsec VPN客户端](http://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server)的互操作性 。
 
-> 以上链接来自SoftEther VPN官方网站
+> 以上链接来自SoftEther VPN官方网站，机器翻译
 
 
 
