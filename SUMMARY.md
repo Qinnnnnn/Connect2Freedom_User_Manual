@@ -15,7 +15,7 @@
     * [ShadowsocksR 手动配置](chapter2/chapter2-4/chapter2-4-2.md)
   * [VPN 客户端配置](chapter2/chapter2-5.md)
     * [IPsec/L2TP 客户端配置](chapter2/chapter2-5/chapter2-5-1.md)
-    * Ethernet over HTTPS 客户端配置
+    * [Ethernet over HTTPS 客户端配置](chapter2/chapter2-5/ethernet-over-https-ke-hu-duan-pei-zhi.md)
 * [高级配置](chapter3.md)
   * [UDP流量转发](chapter3/chapter3-1.md)
 
