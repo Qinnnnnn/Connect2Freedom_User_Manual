@@ -16,6 +16,6 @@
   * [VPN 客户端配置](yong-hu-shou-ce/vpn-ke-hu-duan-pei-zhi.md)
     * [IPsec/L2TP 客户端配置](yong-hu-shou-ce/vpn-ke-hu-duan-pei-zhi/ipsecl2tp-ke-hu-duan-pei-zhi.md)
     * Ethernet over HTTPS 客户端配置
-* [高级配置](gao-ji-pei-zhi.md)
+* [高级配置](chapter3.md)
   * [UDP流量转发](gao-ji-pei-zhi/udpliu-liang-zhuan-fa.md)
 
