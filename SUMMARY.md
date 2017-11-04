@@ -4,7 +4,7 @@
   * [Shadowsocks 简介](chapter1-1.md)
   * [ShadowsocksR 简介](chapter1-2.md)
   * [SoftEther VPN 简介](chapter1-3.md)
-* [小白入门](chapter2.md)
+* [小白入门](xiao-bai-ru-men.md)
   * [适用于SS/SSR的客户端](yong-hu-shou-ce/shi-yong-yu-ss-ssr-de-ke-hu-duan.md)
   * [适用于VPN的客户端](yong-hu-shou-ce/shi-yong-yu-vpn-de-ke-hu-duan.md)
   * [Shadowsocks 客户端配置](yong-hu-shou-ce/shadowsockske-hu-duan-pei-zhi.md)
