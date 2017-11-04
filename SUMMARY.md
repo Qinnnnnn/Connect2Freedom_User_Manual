@@ -1,9 +1,9 @@
 # Summary
 
 * [欢迎连接世界的另一端](README.md)
-  * [Shadowsocks 简介](shadowsocks-jian-jie.md)
-  * [ShadowsocksR 简介](shadowsocksrjian-jie.md)
-  * [SoftEther VPN 简介](softether-vpn-jian-jie.md)
+  * [Shadowsocks 简介](chapter1-1.md)
+  * [ShadowsocksR 简介](chapter1-2.md)
+  * [SoftEther VPN 简介](chapter1-3.md)
 * [小白入门](xiao-bai-ru-men.md)
   * [适用于SS/SSR的客户端](yong-hu-shou-ce/shi-yong-yu-ss-ssr-de-ke-hu-duan.md)
   * [适用于VPN的客户端](yong-hu-shou-ce/shi-yong-yu-vpn-de-ke-hu-duan.md)
