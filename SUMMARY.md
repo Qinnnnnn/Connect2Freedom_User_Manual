@@ -3,7 +3,7 @@
 * [欢迎连接世界的另一端](README.md)
   * [Shadowsocks 简介](chapter1-1.md)
   * [ShadowsocksR 简介](chapter1-2.md)
-  * [SoftEther VPN 简介](chapter1-3.md)
+  * [VPN 简介](chapter1-3.md)
 * [小白入门](chapter2.md)
   * [适用于SS/SSR的客户端](chapter2/chapter2-1.md)
   * [适用于VPN的客户端](chapter2/chapter2-2.md)
