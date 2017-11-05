@@ -4,7 +4,7 @@
 >
 > Across the Great Firewall, you can reach every corner in the world.
 
-当您阅读这篇文章的时候代表您能接触自由
+当您阅读这篇文章的时候，代表您将能接触自由
 
 > 很久很久以前有一面很高的墙，墙里有两个男孩和一个女孩，他们对外面的世界充满了无限的好奇
 >
@@ -16,9 +16,11 @@
 
 * Shadowsocks
 * ShadowsocksR
-* SoftEther VPN
+* VPN
+  * L2TP/IPsec VPN
+  * Ethernet over HTTPS VPN
 
-本用户手册将对以上三种穿墙姿势作简单介绍并教会您如何配置并简单使用，同时还可以使用部分高级功能达成某些需求
+本用户手册将对以上三种大类穿墙姿势作简单介绍并教会您如何配置并使用。
 
 ### 敬告
 
