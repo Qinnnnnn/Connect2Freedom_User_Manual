@@ -3,7 +3,7 @@
 ### L2TP/IPsec协议
 
 * 选择此协议连接VPN服务器可以使用Windows、Android、iOS、Mac OS等智能设备自带的L2TP协议，无需下载其他客户端
-* 此协议是目前最为简便快捷的VPN穿墙的方式，但是流量特征较为明显，有几率被GFW识别，轻则拦截VPN连接，重则封掉服务器IP
+* 此协议是目前最为简便快捷的VPN穿墙的方式，但是有几率被GFW识别，限制VPN连接
 
 ### Ethernet over HTTPS协议
 
