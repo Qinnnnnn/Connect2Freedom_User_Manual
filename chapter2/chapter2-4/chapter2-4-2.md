@@ -15,5 +15,5 @@
 
 协议目前墙裂推荐：auth\_aes128\_md5协议（iOS的SkipWorld客户端现版本暂无此协议，请联系服务商修改为Origin），协议参数可不填。此协议能够最大程度地避免GFW的特征识别，其他的协议插件均失效或效果不佳。
 
-混淆目前墙裂推荐：tls1.2\_ticket\_auth，混淆参数填写国内大型网站即可。比如您填写[https://www.github.com](https://www.github.com)，就表示您的上网数据会伪造成在和GitHub网站进行通信，从而欺骗GFW的检测。
+混淆目前墙裂推荐：tls1.2\_ticket\_auth，混淆参数填写国内大型网站即可。建议填写[https://www.github.com](https://www.github.com)，就表示您的上网数据会伪造成在和GitHub网站进行通信，从而欺骗GFW的检测。
 
